@@ -2,8 +2,10 @@
 
 - Entregáveis do projeto de Engenharia de Software II em conjunto com a empresa GSW Soluções Integradas
 
-### SPRINT 0
+### [SPRINT 0]
 - ~~Definição do grupo / Definição dos stakeholders;~~
 - ~~Plano de desenvolvimento de software~~
 - ~~Ferramentas e técnicas aplicáveis~~
 - ~~Modelagem de processo de negócio~~
+
+[SPRINT 0]: <https://github.com/fabsvas/ENGSW2_GSW/tree/master/SPRINT%200>
