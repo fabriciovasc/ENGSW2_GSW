@@ -8,6 +8,11 @@
 - ~~[Ferramentas e técnicas aplicáveis]~~
 - ~~[Modelagem de processo de negócio]~~
 
+### [SPRINT 1]
+- [User Stories]
+- [Arquitetura]
+- [Wireframes]
+
 [SPRINT 0]: <https://github.com/fabsvas/ENGSW2_GSW/tree/master/SPRINT%200>
 [Definição do grupo / Definição dos stakeholders]: <https://github.com/fabsvas/ENGSW2_GSW/blob/master/SPRINT%200/DefinicaoGrupoStakeholders.pdf>
 [Plano de desenvolvimento de software]: <https://github.com/fabsvas/ENGSW2_GSW/blob/master/SPRINT%200/PlanoDesenvolvimentoSoftware.pdf>
