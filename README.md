@@ -2,21 +2,27 @@
 
 - Entregáveis do projeto de Engenharia de Software II em conjunto com a empresa GSW Soluções Integradas
 
-#### Product Owner: Samuel Xavier
-#### Scrum Master: Vitor Amorim
-#### Desenvolvedores: Fabrício Vasconcellos, Jonatas dos Reis e Rafael Ribeiro
+### :triangular_flag_on_post: Time
 
-### [SPRINT 0]
+```
+productOwner = 'Samuel Xavier'
+scrumMaster = 'Vitor Amorim'
+devs = 'Fabrício Vasconcellos, Jonatas dos Reis e Rafael Ribeiro'
+```
+
+### :round_pushpin: Entregas
+
+### [SPRINT 0] :heavy_check_mark:
 - ~~[Definição do grupo / Definição dos stakeholders]~~
 - ~~[Plano de desenvolvimento de software]~~
 - ~~[Ferramentas e técnicas aplicáveis]~~
 - ~~[Modelagem de processo de negócio]~~
 
-### [SPRINT 1]
+### [SPRINT 1] :heavy_check_mark:
 - ~~[User Stories]~~
 - ~~[Arquitetura de software - MVC]~~
 
-### [SPRINT 2]
+### [SPRINT 2] :heavy_check_mark:
 - ~~[Inicio da implementação dos códigos]~~
   - Alguns comandos para executar o node server:
 ```
