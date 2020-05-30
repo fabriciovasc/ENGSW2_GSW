@@ -43,7 +43,7 @@ browser -> http://localhost:3000
 [SPRINT 1]: <https://github.com/fabsvas/ENGSW2_GSW/tree/master/SPRINT%201>
 [User Stories]: <https://github.com/fabsvas/ENGSW2_GSW/blob/master/SPRINT%201/UserStories.pdf>
 [Arquitetura de software - MVC]: <https://github.com/fabsvas/ENGSW2_GSW/blob/master/SPRINT%201/ArquiteturaSoftwareMVC.pdf>
-[Wireframes]:<SPRINT 1/Wireframes.pdf>
+[Wireframes]: <https://github.com/fabsvas/ENGSW2_GSW/blob/master/SPRINT%201/Wireframes.pdf>
 
 [SPRINT 2]: <https://github.com/fabsvas/ENGSW2_GSW/tree/master/SPRINT%202>
 [Inicio da implementação dos códigos]: <https://github.com/fabsvas/ENGSW2_GSW/tree/master/SPRINT%202/InicioImplementacao>
