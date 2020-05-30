@@ -21,6 +21,7 @@ devs = 'Fabrício Vasconcellos, Jonatas dos Reis e Rafael Ribeiro'
 ### [SPRINT 1] :heavy_check_mark:
 - ~~[User Stories]~~
 - ~~[Arquitetura de software - MVC]~~
+- ~~[Wireframes]~~
 
 ### [SPRINT 2] :heavy_check_mark:
 - ~~[Inicio da implementação dos códigos]~~
@@ -42,6 +43,7 @@ browser -> http://localhost:3000
 [SPRINT 1]: <https://github.com/fabsvas/ENGSW2_GSW/tree/master/SPRINT%201>
 [User Stories]: <https://github.com/fabsvas/ENGSW2_GSW/blob/master/SPRINT%201/UserStories.pdf>
 [Arquitetura de software - MVC]: <https://github.com/fabsvas/ENGSW2_GSW/blob/master/SPRINT%201/ArquiteturaSoftwareMVC.pdf>
+[Wireframes]:<>
 
 [SPRINT 2]: <https://github.com/fabsvas/ENGSW2_GSW/tree/master/SPRINT%202>
 [Inicio da implementação dos códigos]: <https://github.com/fabsvas/ENGSW2_GSW/tree/master/SPRINT%202/InicioImplementacao>
