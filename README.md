@@ -19,9 +19,9 @@ devs = 'Fabrício Vasconcellos, Jonatas dos Reis e Rafael Ribeiro'
 - ~~[Modelagem de processo de negócio]~~
 
 ### [SPRINT 1] :heavy_check_mark:
-- ~~[User Stories]~~ - ```Ultima atualização: [1c044112ce4aa140ac0efda785a2fbc893574e52]```
+- ~~[User Stories]~~ - ```Ultima atualização: ```[1c044112ce4aa140ac0efda785a2fbc893574e52]
 - ~~[Arquitetura de software - MVC]~~
-- ~~[Wireframes]~~ - ```Ultima atualização: [830ff4fd085f59b1d28084010dc388382dc6fdda]```
+- ~~[Wireframes]~~ - ```Ultima atualização: ```[830ff4fd085f59b1d28084010dc388382dc6fdda]
 
 ### [SPRINT 2] :heavy_check_mark:
 - ~~[Inicio da implementação dos códigos]~~
