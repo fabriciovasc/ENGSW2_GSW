@@ -33,6 +33,8 @@ browser -> http://localhost:3000
 - ~~[Cenário de testes]~~
 - ~~[Diagrama de Classes Refinado]~~
 - ~~[Diagrama de Domínio]~~
+- ~~[Wireframes]~~
+- ~~[User Stories]~~
 
 [SPRINT 0]: <https://github.com/fabsvas/ENGSW2_GSW/tree/master/SPRINT%200>
 [Definição do grupo / Definição dos stakeholders]: <https://github.com/fabsvas/ENGSW2_GSW/blob/master/SPRINT%200/DefinicaoGrupoStakeholders.pdf>
