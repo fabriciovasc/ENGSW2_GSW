@@ -33,8 +33,8 @@ browser -> http://localhost:3000
 - ~~[Cenário de testes]~~
 - ~~[Diagrama de Classes Refinado]~~
 - ~~[Diagrama de Domínio]~~
-- ~~[Wireframes]~~ - ```Ultima atualização: [830ff4fd085f59b1d28084010dc388382dc6fdda]```
-- ~~[User Stories]~~ - ```Ultima atualização: [c2d84fe7c5f9f66ae06bf5fa2b52cd1e7d21248c]```
+- ~~[Wireframes]~~ - ```Ultima atualização: ```[830ff4fd085f59b1d28084010dc388382dc6fdda]
+- ~~[User Stories]~~ - ```Ultima atualização: ```[c2d84fe7c5f9f66ae06bf5fa2b52cd1e7d21248c]
 
 [SPRINT 0]: <https://github.com/fabsvas/ENGSW2_GSW/tree/master/SPRINT%200>
 [Definição do grupo / Definição dos stakeholders]: <https://github.com/fabsvas/ENGSW2_GSW/blob/master/SPRINT%200/DefinicaoGrupoStakeholders.pdf>
