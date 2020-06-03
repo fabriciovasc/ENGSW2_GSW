@@ -7,11 +7,11 @@ describe("Suite de testes.", function () {
         //GIVEN
         let event = {
             body: JSON.stringify({
-                area: "marketing",
-                objetivo: "publicação",
-                requerido: "experiencia publicação",
+                area: "ti",
+                objetivo: "desenvolvimento backend",
+                requerido: "experiencia com desenvolcimento",
                 experiencia: true,
-                id: "2",
+                id: "3",
             })
         };
 

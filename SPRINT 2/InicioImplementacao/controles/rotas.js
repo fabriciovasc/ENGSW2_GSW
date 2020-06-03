@@ -17,13 +17,6 @@ module.exports = app => {
         Vagas.adiciona(vaga_nova, res);
     })
 
-    app.patch('/vagas/:id', (req, res) => {
-        const id = parseInt(req.params.id);
-        const valores = req.body;
-
-        Vagas.altera(id, valores, res);
-    })
-
     app.delete('/vagas/:id', (req, res) => {
         const id = parseInt(req.params.id);
 
