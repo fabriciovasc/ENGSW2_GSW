@@ -6,7 +6,7 @@ class Vagas {
 
         const vaga_nova = {...vaga};
             
-        const sql = "insert into vagas(area, objetivo, requerido, experiencia, id) values ('ti', 'desenvolvimento backend', 'experiencia com node', true , 3)";
+        const sql = "INSERT INTO vagas(area, objetivo, requerido, experiencia, id) VALUES (?, ?, ?, ?, ?)";
 
         conexao.query(sql, vaga_nova, (erro, resultados) => {
             if (erro){
@@ -34,11 +34,11 @@ class Vagas {
         const sql = `SELECT * FROM vagas WHERE id =${id}`;
 
         conexao.query(sql, (erro, resultados) => {
-            const atendimentos = resultados[0];
+            const vagaResultado = resultados[0];
             if(erro){
                 res.status(400).json(erro);
             } else {
-                res.status(200).json(atendimentos);
+                res.status(200).json(vagaResultado);
             }
         })
     }
