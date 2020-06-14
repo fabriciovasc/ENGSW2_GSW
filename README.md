@@ -42,10 +42,10 @@ browser -> http://localhost:3000
     - Adicionado funções do candidato
 ```
 - ~~[Cenário de testes]~~ - ```updateAt = 14/06/2020: ```[67762a1f8acab9fefaf92a57f1d7d5416095132a]
-- ~~[Diagrama de Classes Refinado]~~ - ```Update at: não houve alterações ```
-- ~~[Diagrama de Domínio]~~ - ```Update at: não houve alterações ```
-- ~~[Wireframes]~~ - ```Update at: não houve alterações ```
-- ~~[User Stories]~~ - ```Update at: não houve alterações ```
+- ~~[Diagrama de Classes Refinado]~~ - ```updateAt = '' ```
+- ~~[Diagrama de Domínio]~~ - ```updateAt = '' ```
+- ~~[Wireframes]~~ - ```updateAt = '' ```
+- ~~[User Stories]~~ - ```updateAt = '' ```
 - ~~[Estimativa de esforço - Trello]~~ - Exemplo de como estamos montando nossa estimativa de esforço na plataforma Trello
 
 [SPRINT 0]: <https://github.com/fabsvas/ENGSW2_GSW/tree/master/SPRINT%200>
