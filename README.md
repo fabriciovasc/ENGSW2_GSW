@@ -19,9 +19,9 @@ devs = 'Fabrício Vasconcellos, Jonatas dos Reis e Rafael Ribeiro'
 - ~~[Modelagem de processo de negócio]~~
 
 ### [SPRINT 1] :heavy_check_mark:
-- ~~[User Stories]~~ - ```Ultima atualização: ```[1c044112ce4aa140ac0efda785a2fbc893574e52]
+- ~~[User Stories]~~ - ```updateAt = 29/05/2020: ```[1c044112ce4aa140ac0efda785a2fbc893574e52]
 - ~~[Arquitetura de software - MVC]~~
-- ~~[Wireframes]~~ - ```Ultima atualização: ```[830ff4fd085f59b1d28084010dc388382dc6fdda]
+- ~~[Wireframes]~~ - ```updateAt = 29/05/2020: ```[830ff4fd085f59b1d28084010dc388382dc6fdda]
 
 ### [SPRINT 2] :heavy_check_mark:
 - ~~[Inicio da implementação dos códigos]~~
@@ -33,20 +33,20 @@ browser -> http://localhost:3000
 - ~~[Cenário de testes]~~
 - ~~[Diagrama de Classes Refinado]~~
 - ~~[Diagrama de Domínio]~~
-- ~~[Wireframes]~~ - ```Última atualização: ```[830ff4fd085f59b1d28084010dc388382dc6fdda]
-- ~~[User Stories]~~ - ```Última atualização: ```[c2d84fe7c5f9f66ae06bf5fa2b52cd1e7d21248c]
+- ~~[Wireframes]~~ - ```updateAt = 29/05/2020: ```[830ff4fd085f59b1d28084010dc388382dc6fdda]
+- ~~[User Stories]~~ - ```updateAt = 29/05/2020: ```[c2d84fe7c5f9f66ae06bf5fa2b52cd1e7d21248c]
 
 ### [SPRINT 3] :heavy_check_mark:
-- ~~[Inicio da implementação dos códigos]~~ - ```Última atualização```[7a202ea41c8563c9adb1cfb664192499a49f7e82]
+- ~~[Inicio da implementação dos códigos]~~ - ```updateAt = 08/06/2020: ```[7a202ea41c8563c9adb1cfb664192499a49f7e82]
 ```
     - Adicionado funções do candidato
 ```
-- ~~[Cenário de testes]~~ - ```Última atualização```[67762a1f8acab9fefaf92a57f1d7d5416095132a]
-- ~~[Diagrama de Classes Refinado]~~ - ```Última atualização: não houve alterações ```
-- ~~[Diagrama de Domínio]~~ - ```Última atualização: não houve alterações ```
-- ~~[Wireframes]~~ - ```Última atualização: não houve alterações ```
-- ~~[User Stories]~~ - ```Última atualização: não houve alterações ```
-- ~~[Estimativa de esforço - Trello]~~ - ```Exemplo de como estamos montando nossa estimativa de esforço na plataforma Trello```
+- ~~[Cenário de testes]~~ - ```updateAt = 14/06/2020: ```[67762a1f8acab9fefaf92a57f1d7d5416095132a]
+- ~~[Diagrama de Classes Refinado]~~ - ```Update at: não houve alterações ```
+- ~~[Diagrama de Domínio]~~ - ```Update at: não houve alterações ```
+- ~~[Wireframes]~~ - ```Update at: não houve alterações ```
+- ~~[User Stories]~~ - ```Update at: não houve alterações ```
+- ~~[Estimativa de esforço - Trello]~~ - Exemplo de como estamos montando nossa estimativa de esforço na plataforma Trello
 
 [SPRINT 0]: <https://github.com/fabsvas/ENGSW2_GSW/tree/master/SPRINT%200>
 [Definição do grupo / Definição dos stakeholders]: <https://github.com/fabsvas/ENGSW2_GSW/blob/master/SPRINT%200/DefinicaoGrupoStakeholders.pdf>
