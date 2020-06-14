@@ -1,9 +1,12 @@
 const Vagas = require('../modelos/vagas');
+const Candidato = require('../modelos/candidatos');
 
 module.exports = app => {
+
+    //--------------------- vagas ----------------------------------
     app.get('/vagas', (req, res) => {
         Vagas.lista(res);
-    });
+    })
 
     app.get('/vagas/:id', (req, res) => {
         const id = parseInt(req.params.id);
@@ -17,16 +20,30 @@ module.exports = app => {
         Vagas.adiciona(vaga_nova, res);
     })
 
-    app.patch('/vagas/:id', (req, res) => {
-        const id = parseInt(req.params.id);
-        const valores = req.body;
-
-        Vagas.altera(id, valores, res);
-    })
-
     app.delete('/vagas/:id', (req, res) => {
         const id = parseInt(req.params.id);
 
         Vagas.deleta(id, res);
+    })
+
+    //---------------------------------------------------------------
+    //--------------------- candidatos-------------------------------
+
+    app.get('/candidato/:cpf', (req, res) => {
+        const cpf = (req.params.cpf);
+
+        Candidato.buscaCandidatoCpf(cpf, res);
+    })
+    
+    app.post('/candidato', (req, res) => {
+        const candidato = req.body;
+
+        Candidato.adiciona(candidato, res);
+    })
+
+    app.delete('/candidato/:id', (req, res) => {
+        const cpf = (req.params.cpf);
+
+        Candidato.deleta(cpf, res);
     })
 }
