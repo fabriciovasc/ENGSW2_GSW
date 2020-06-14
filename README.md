@@ -33,8 +33,20 @@ browser -> http://localhost:3000
 - ~~[Cenário de testes]~~
 - ~~[Diagrama de Classes Refinado]~~
 - ~~[Diagrama de Domínio]~~
-- ~~[Wireframes]~~ - ```Ultima atualização: ```[830ff4fd085f59b1d28084010dc388382dc6fdda]
-- ~~[User Stories]~~ - ```Ultima atualização: ```[c2d84fe7c5f9f66ae06bf5fa2b52cd1e7d21248c]
+- ~~[Wireframes]~~ - ```Última atualização: ```[830ff4fd085f59b1d28084010dc388382dc6fdda]
+- ~~[User Stories]~~ - ```Última atualização: ```[c2d84fe7c5f9f66ae06bf5fa2b52cd1e7d21248c]
+
+### [SPRINT 3] :heavy_check_mark:
+- ~~[Inicio da implementação dos códigos]~~ - ```Última atualização```[7a202ea41c8563c9adb1cfb664192499a49f7e82]
+```
+    - Adicionado funções do candidato
+```
+- ~~[Cenário de testes]~~ - ```Última atualização```[67762a1f8acab9fefaf92a57f1d7d5416095132a]
+- ~~[Diagrama de Classes Refinado]~~ - ```Última atualização: não houve alterações ```
+- ~~[Diagrama de Domínio]~~ - ```Última atualização: não houve alterações ```
+- ~~[Wireframes]~~ - ```Última atualização: não houve alterações ```
+- ~~[User Stories]~~ - ```Última atualização: não houve alterações ```
+- ~~[Estimativa de esforço - Trello]~~ - ```Exemplo de como estamos montando nossa estimativa de esforço na plataforma Trello```
 
 [SPRINT 0]: <https://github.com/fabsvas/ENGSW2_GSW/tree/master/SPRINT%200>
 [Definição do grupo / Definição dos stakeholders]: <https://github.com/fabsvas/ENGSW2_GSW/blob/master/SPRINT%200/DefinicaoGrupoStakeholders.pdf>
@@ -55,3 +67,8 @@ browser -> http://localhost:3000
 [Diagrama de Domínio]: <https://github.com/fabsvas/ENGSW2_GSW/blob/master/SPRINT%202/DiagramaDominio.pdf>
 [c2d84fe7c5f9f66ae06bf5fa2b52cd1e7d21248c]: <https://github.com/fabsvas/ENGSW2_GSW/blob/c2d84fe7c5f9f66ae06bf5fa2b52cd1e7d21248c/SPRINT%201/UserStories.pdf>
 [830ff4fd085f59b1d28084010dc388382dc6fdda]: <https://github.com/fabsvas/ENGSW2_GSW/blob/830ff4fd085f59b1d28084010dc388382dc6fdda/SPRINT%201/Wireframes.pdf>
+
+[SPRINT 3]: <https://github.com/fabsvas/ENGSW2_GSW/tree/master/SPRINT%203>
+[Estimativa de esforço - Trello]: <https://github.com/fabsvas/ENGSW2_GSW/blob/master/SPRINT%203/EstimativaDeEsforcoTrelloExemplo.pdf>
+[7a202ea41c8563c9adb1cfb664192499a49f7e82]: <https://github.com/fabsvas/ENGSW2_GSW/commit/7a202ea41c8563c9adb1cfb664192499a49f7e82>
+[67762a1f8acab9fefaf92a57f1d7d5416095132a]: <https://github.com/fabsvas/ENGSW2_GSW/blob/master/SPRINT%203/CenarioDeTestes.pdf>
