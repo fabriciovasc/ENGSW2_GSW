@@ -14,10 +14,10 @@ module.exports = app => {
         Vagas.buscaporId(id, res);
     })
     
-    app.post('/vagas', (req, res) => {
-        const vaga_nova = req.body;
+    app.post('/vagas',  (req, res) => {
+        const nova_vaga = req.body;
 
-        Vagas.adiciona(vaga_nova, res);
+        Vagas.adiciona(nova_vaga);
     })
 
     app.delete('/vagas/:id', (req, res) => {
