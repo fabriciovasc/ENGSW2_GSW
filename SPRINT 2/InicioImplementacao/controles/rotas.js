@@ -15,9 +15,9 @@ module.exports = app => {
     })
     
     app.post('/vagas',  (req, res) => {
-        const nova_vaga = req.body;
+        const vaga = req.query;
 
-        Vagas.adiciona(nova_vaga);
+        Vagas.adiciona(vaga, res);
     })
 
     app.delete('/vagas/:id', (req, res) => {
@@ -36,7 +36,7 @@ module.exports = app => {
     })
     
     app.post('/candidato', (req, res) => {
-        const candidato = req.body;
+        const candidato = req.query;
 
         Candidato.adiciona(candidato, res);
     })

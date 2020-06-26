@@ -2,29 +2,15 @@ const conexao = require('../infraestrutura/conexao');
 
 class Candidato {
 
-    adiciona(candidato, res){ 
-
-        //refatorar esta função
-        const candidato_novo = {...candidato};
-
-        /*const candidato_novo = [
-            nome = candidato.nome,
-            cpf = candidato.cpf,
-            telefone = candidato.telefone,
-            email = candidato.email
-        ];*/
-            
-        const sql = 'INSERT INTO candidato'
-
-        conexao.query(sql, candidato_novo, (erro) => {
-            if (erro){
-                res.status(400).json(erro);
+    adiciona(candidato, res) {
+        conexao.query('INSERT INTO candidatos SET ?', candidato, (err) => {
+            if (err) {
+                res.status(400).json(err);
             } else {
-                res.status(201).json(candidato_novo);
+                res.status(201).json(candidato);
             }
-        })
+        });
     }
-
 
     buscaCandidatoCpf(cpf, res){
         const sql = `SELECT * FROM candidato WHERE cpf =${cpf}`;

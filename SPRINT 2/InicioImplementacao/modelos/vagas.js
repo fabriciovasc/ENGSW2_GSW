@@ -1,30 +1,17 @@
 const conexao = require('../infraestrutura/conexao');
 
 class Vagas {
-    
-    adiciona(area, objetivo, requerido, experiencia, res) { 
 
-        const vaga_nova = {
-            area: area,
-            objetivo: objetivo,
-            requerido: requerido,
-            experiencia: experiencia
-        };
-
-        console.log(vaga_nova);
-            
-        const sql = `INSERT INTO vagas(area, objetivo, requerido, experiencia) VALUES ?`
-
-        conexao.query(sql, vaga_nova, (erro, resultados) => {
-            if (erro){
-                console.log(erro);
+    adiciona(vaga, res) {
+        conexao.query('INSERT INTO vagas SET ?', vaga, (err) => {
+            if (err) {
+                res.status(400).json(err);
             } else {
-                console.log(vaga_nova);
+                res.status(201).json(vaga);
             }
-        })
+        });
     }
-    
-    
+
     lista(res){
         const sql = 'SELECT * FROM vagas'
 
