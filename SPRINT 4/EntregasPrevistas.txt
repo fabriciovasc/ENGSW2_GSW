@@ -1,4 +1,4 @@
-- Refatoração do User Stories
-- Novo cenário de testes
+- Refatoração do User Stories para o Modelo da GSW
+- Refatoração do cenário de testes para o modelo indicado
 - Estimativa de esforço
-- Front end criado e integrado com o back end => https://github.com/fabsvas/rh-gsw-front-fatecsjc
+- Vídeo demonstração do front end funcionando integrado com o back-end
