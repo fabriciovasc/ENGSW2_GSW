@@ -5,3 +5,5 @@
 - VídeoCadastroDosDetalhes - Funcionamento do cadastro dos detalhes de forma personalizada;
 - VídeoIntegradoBackEnd - Demonstração da integração com a API do backend.
 - WireFrames (não houve alterações)
+- Diagrama de classes (não houve alterações)
+- Diagrama de domínio (não houve alterações)
