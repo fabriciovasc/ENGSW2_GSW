@@ -1,5 +1,4 @@
 - Refatoração do User Stories
 - Novo cenário de testes
 - Estimativa de esforço
-- Integrar front com o back com algumas funcionalidades prontas (a definir)
-- atualização de wireframes (não necessitou de alterações)
+- Front end criado e integrado com o back end => https://github.com/fabsvas/rh-gsw-front-fatecsjc
