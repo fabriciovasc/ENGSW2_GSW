@@ -36,6 +36,20 @@ browser -> http://localhost:3000
 - ~~[Wireframes]~~ - ```updateAt = 29/05/2020: ```[830ff4fd085f59b1d28084010dc388382dc6fdda]
 - ~~[User Stories]~~ - ```updateAt = 29/05/2020: ```[c2d84fe7c5f9f66ae06bf5fa2b52cd1e7d21248c]
 
+### [SPRINT 4] :heavy_check_mark:
+- ~~[Frontend em andamento e integrado com API do backend]~~ :heavy_check_mark:
+```
+    - Mudanças nas funções de criar do backend;
+    - Integração com API do backend (CRUD Service);
+    - Novas telas (cadastro de vaga e listagem de vagas).
+```
+- ~~[Cenário de testes]~~ - :heavy_check_mark:
+- ~~[Diagrama de Classes Refinado]~~ - Não houve mudanças
+- ~~[Diagrama de Domínio]~~ - Não houve mudanças
+- ~~[Wireframes]~~ - Não houve mudanças
+- ~~[User Stories]~~ - :heavy_check_mark:
+- ~~[Estimativa de esforço - Jira]~~ :heavy_check_mark:
+
 ### [SPRINT 3] :heavy_check_mark:
 - ~~[Inicio da implementação dos códigos]~~ - ```updateAt = 08/06/2020: ```[7a202ea41c8563c9adb1cfb664192499a49f7e82]
 ```
@@ -72,3 +86,5 @@ browser -> http://localhost:3000
 [Estimativa de esforço - Trello]: <https://github.com/fabsvas/ENGSW2_GSW/blob/master/SPRINT%203/EstimativaDeEsforcoTrelloExemplo.pdf>
 [7a202ea41c8563c9adb1cfb664192499a49f7e82]: <https://github.com/fabsvas/ENGSW2_GSW/commit/7a202ea41c8563c9adb1cfb664192499a49f7e82>
 [67762a1f8acab9fefaf92a57f1d7d5416095132a]: <https://github.com/fabsvas/ENGSW2_GSW/blob/master/SPRINT%203/CenarioDeTestes.pdf>
+
+[SPRINT 4]: <https://github.com/fabsvas/ENGSW2_GSW/tree/master/SPRINT%204>
