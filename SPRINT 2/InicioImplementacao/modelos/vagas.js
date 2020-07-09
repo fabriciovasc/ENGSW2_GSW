@@ -2,8 +2,13 @@ const conexao = require('../infraestrutura/conexao');
 
 class Vagas {
 
-    adiciona(vaga, res) {
-        conexao.query('INSERT INTO vagas SET ?', vaga, (err) => {
+    adiciona(req, res, area, objetivo, requerido, experiencia) {
+
+        const vaga = req.body;
+
+        const sql = `INSERT INTO vagas(area, objetivo, requerido, experiencia) VALUES('${area}', '${objetivo}', '${requerido}', ${experiencia})`
+
+        conexao.query(sql, vaga, (err) => {
             if (err) {
                 res.status(400).json(err);
             } else {
