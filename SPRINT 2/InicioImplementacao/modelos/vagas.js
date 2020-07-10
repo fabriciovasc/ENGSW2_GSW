@@ -4,6 +4,12 @@ class Vagas {
 
     adiciona(req, res, area, objetivo, requerido, experiencia) {
 
+        /* Adicionar
+        cargaHoraria: number;
+        inicioVaga: string;
+        fimVaga: string;
+        beneficios: array; */
+
         const vaga = req.body;
 
         const sql = `INSERT INTO vagas(area, objetivo, requerido, experiencia) VALUES('${area}', '${objetivo}', '${requerido}', ${experiencia})`
