@@ -1,5 +1,6 @@
 const Vagas = require('../modelos/vagas');
 const Candidato = require('../modelos/candidatos');
+const Login = require('../modelos/login');
 
 module.exports = app => {
 
@@ -46,4 +47,34 @@ module.exports = app => {
 
         Candidato.deleta(cpf, res);
     })
+
+    //---------------------------------------------------------------
+    //-------------------------login---------------------------------
+
+    /* 
+    começa no /login, clica em quero me cadastrar, vai pro /cadastro, 
+    finaliza o cadastro, vai pro /login novamente, ele faz o login,
+    vai pro /home, que vai ter as outras parada lá.
+    */
+
+    app.post('/cadastro', function(req, res) {
+        const candidato = req.query;
+
+        Login.cadastro(candidato, res)
+    })
+
+    app.post('/login', function(req, res) {
+        const info = req.body;
+
+        Login.login(info, res);
+    });
+    
+    app.get('/inicio', function(req, res) {
+        if (req.session.loggedin) {
+            res.send('Bem vindo, ' + req.session.nome + '!');
+        } else {
+            res.send('Por favor faça login!');
+        }
+        res.end();
+    });
 }

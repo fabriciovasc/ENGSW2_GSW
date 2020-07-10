@@ -10,7 +10,7 @@ class Vagas {
         fimVaga: string;
         beneficios: array; */
 
-        const vaga = req.body;
+        let vaga = req.body;
 
         const sql = `INSERT INTO vagas(area, objetivo, requerido, experiencia) VALUES('${area}', '${objetivo}', '${requerido}', ${experiencia})`
 
@@ -44,6 +44,21 @@ class Vagas {
                 res.status(400).json(erro);
             } else {
                 res.status(200).json(vagaResultado);
+            }
+        })
+    }
+
+//---------------------------filtro da área-----------------------
+
+    buscaPorArea(area, res){
+        const sql = `SELECT * FROM vagas WHERE area=${area}`;
+
+        conexao.query(sql, (erro, resultados) => {
+            const vagaPorArea = resultados[0];
+            if(erro){
+                res.status(400).json(erro);
+            } else {
+                res.status(200).json(vagaPorArea);
             }
         })
     }
