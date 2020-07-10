@@ -15,8 +15,8 @@ module.exports = app => {
     })
     
     app.post('/vagas',  (req, res) => {
-        const vaga = req.query;
-        console.log(vaga)
+        const vaga = req.body;
+        console.log(vaga);
         Vagas.adiciona(vaga, res);
     })
 

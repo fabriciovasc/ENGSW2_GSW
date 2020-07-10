@@ -10,6 +10,6 @@ conexao.connect(erro => {
         
         const app = customexpress();
         
-        app.listen(3000, () => console.log('servidor rodando'));
+        app.listen(3000, () => console.log('servidor rodando na porta 3000'));
     }
 });

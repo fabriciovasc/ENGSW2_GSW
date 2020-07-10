@@ -4,8 +4,8 @@ const conexao = mysql.createConnection({
     host: 'localhost',
     port: 3306,
     user: 'root', 
-    password: 'Brawlhalla@123#',
-    database: 'gsw'
+    password: 'Brawlhalla123@',
+    database: 'GSW'
 });
 
 module.exports = conexao
