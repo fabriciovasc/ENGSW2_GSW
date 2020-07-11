@@ -11,33 +11,20 @@ module.exports = app => {
     })
 
     app.get('/vagas/:id', (req, res) => {
-        const id = parseInt(req.params.id);
+        const id = parseInt(req.body.id);
 
         Vagas.buscaporId(id, res);
     })
     
-    app.post('/vagas', (req, res, area, objetivo, requerido, experiencia) => {
+    app.post('/vagas', (req, res) => {
+        const vaga = req.body;
+        console.log(vaga)
 
-        //const area = req.body.area;
-        //const objetivo = req.body.objetivo;
-        //const requerido = req.body.requerido;
-        //const experiencia = req.body.experiencia;
-
-        /*const body = {
-            area: area,
-            objetivo: objetivo,
-            requerido: requerido,
-            experiencia: experiencia
-        }*/
-        //se for usar isso tem que declarar (area, objetivo, requerido, experiencia), junto com o req e res
-
-        const {area, objetivo, requerido, experiencia} = req.body;
-
-        Vagas.adiciona(area, objetivo, requerido, experiencia);
+        Vagas.adiciona(vaga, res);
     })
 
     app.delete('/vagas/:id', (req, res) => {
-        const id = parseInt(req.params.id);
+        const id = parseInt(req.body.id);
 
         Vagas.deleta(id, res);
     })
@@ -46,19 +33,19 @@ module.exports = app => {
     //--------------------- candidatos-------------------------------
 
     app.get('/candidato/:cpf', (req, res) => {
-        const cpf = (req.params.cpf);
+        const cpf = (req.body.cpf);
 
         Candidato.buscaCandidatoCpf(cpf, res);
     })
     
     app.post('/candidato', (req, res) => {
-        const candidato = req.query;
+        const candidato = req.body;
 
         Candidato.adiciona(candidato, res);
     })
 
     app.delete('/candidato/:id', (req, res) => {
-        const cpf = (req.params.cpf);
+        const cpf = (req.body.cpf);
 
         Candidato.deleta(cpf, res);
     })
@@ -73,7 +60,7 @@ module.exports = app => {
     */
 
     app.post('/cadastro', function(req, res) {
-        const candidato = req.query;
+        const candidato = req.body;
 
         Login.cadastro(candidato, res)
     })
