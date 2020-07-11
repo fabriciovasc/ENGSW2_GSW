@@ -1,6 +1,7 @@
 const Vagas = require('../modelos/vagas');
 const Candidato = require('../modelos/candidatos');
 const Login = require('../modelos/login');
+const { request } = require('express');
 
 module.exports = app => {
 
@@ -15,10 +16,24 @@ module.exports = app => {
         Vagas.buscaporId(id, res);
     })
     
-    app.post('/vagas',  (req, res) => {
-        const vaga = req.body;
-        console.log(vaga);
-        Vagas.adiciona(vaga, res);
+    app.post('/vagas', (req, res, area, objetivo, requerido, experiencia) => {
+
+        //const area = req.body.area;
+        //const objetivo = req.body.objetivo;
+        //const requerido = req.body.requerido;
+        //const experiencia = req.body.experiencia;
+
+        /*const body = {
+            area: area,
+            objetivo: objetivo,
+            requerido: requerido,
+            experiencia: experiencia
+        }*/
+        //se for usar isso tem que declarar (area, objetivo, requerido, experiencia), junto com o req e res
+
+        const {area, objetivo, requerido, experiencia} = req.body;
+
+        Vagas.adiciona(area, objetivo, requerido, experiencia);
     })
 
     app.delete('/vagas/:id', (req, res) => {
