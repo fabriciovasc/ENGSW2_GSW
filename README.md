@@ -94,4 +94,4 @@ browser -> http://localhost:3000
 
 [SPRINT 4]: <https://github.com/fabsvas/ENGSW2_GSW/tree/master/SPRINT%204>
 [SPRINT 5 - FINAL]: <https://github.com/fabsvas/ENGSW2_GSW/tree/master/FINAL%20SPRINT%205>
-[Vídeos do projeto funcionando]: <https://github.com/fabsvas/ENGSW2_GSW/tree/master/FINAL%20SPRINT%205>
+[Vídeos do projeto funcionando]: <https://youtu.be/IbEzA-uYT0s>
