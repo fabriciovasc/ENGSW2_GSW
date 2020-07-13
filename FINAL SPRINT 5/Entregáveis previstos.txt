@@ -1,0 +1,8 @@
+- Documentação finalizada e única (mostrando evolução, etc);
+- Todos os vídeos descrevendo as funcionalidades;
+- Único vídeo demonstrando o projeto funcionando - YouTube: https://youtu.be/IbEzA-uYT0s
+
+//Projetos
+
+Backend: https://github.com/fabsvas/ENGSW2_GSW/tree/master/SPRINT%202/InicioImplementacao
+Frontend: https://github.com/fabsvas/rh-gsw-front-fatecsjc
