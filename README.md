@@ -62,6 +62,11 @@ browser -> http://localhost:3000
 - ~~User Stories~~ - :heavy_check_mark:
 - ~~Estimativa de esforço - Jira~~ :heavy_check_mark:
 
+### [SPRINT 5 - FINAL] :heavy_check_mark:
+- ~~[Vídeos do projeto funcionando]~~ :heavy_check_mark:
+- ~~[Documentação única e finalizada]~~ :heavy_check_mark:
+
+
 [SPRINT 0]: <https://github.com/fabsvas/ENGSW2_GSW/tree/master/SPRINT%200>
 [Definição do grupo / Definição dos stakeholders]: <https://github.com/fabsvas/ENGSW2_GSW/blob/master/SPRINT%200/DefinicaoGrupoStakeholders.pdf>
 [Plano de desenvolvimento de software]: <https://github.com/fabsvas/ENGSW2_GSW/blob/master/SPRINT%200/PlanoDesenvolvimentoSoftware.pdf>
@@ -88,3 +93,5 @@ browser -> http://localhost:3000
 [67762a1f8acab9fefaf92a57f1d7d5416095132a]: <https://github.com/fabsvas/ENGSW2_GSW/blob/master/SPRINT%203/CenarioDeTestes.pdf>
 
 [SPRINT 4]: <https://github.com/fabsvas/ENGSW2_GSW/tree/master/SPRINT%204>
+[SPRINT 5 - FINAL]: <https://github.com/fabsvas/ENGSW2_GSW/tree/master/FINAL%20SPRINT%205>
+[Vídeos do projeto funcionando]: <https://github.com/fabsvas/ENGSW2_GSW/tree/master/FINAL%20SPRINT%205>
