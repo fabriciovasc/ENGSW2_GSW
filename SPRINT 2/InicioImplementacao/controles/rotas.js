@@ -11,7 +11,7 @@ module.exports = app => {
     })
 
     app.get('/vagas/:id', (req, res) => {
-        const id = parseInt(req.body.id);
+        const id = req.params.id;
 
         Vagas.buscaporId(id, res);
     })
@@ -24,30 +24,52 @@ module.exports = app => {
     })
 
     app.delete('/vagas/:id', (req, res) => {
-        const id = parseInt(req.body.id);
+        const id = req.params.id;
 
         Vagas.deleta(id, res);
     })
 
+    app.put('/vagas/:id', (req, res) => {
+        const id = req.params.id;
+        const body = req.body;
+        if (body.length) {
+            Vagas.atualizarInscritos(id, body, res)
+        } else {
+            Vagas.editar(id, body, res);
+        }
+    });
+
     //---------------------------------------------------------------
     //--------------------- candidatos-------------------------------
 
-    app.get('/candidato/:cpf', (req, res) => {
-        const cpf = (req.body.cpf);
+    app.get('/candidatos', (req, res) => {
+        Candidato.lista(res);
+    })
+
+
+    app.get('/candidatos/:cpf', (req, res) => {
+        const cpf = req.params.cpf;
 
         Candidato.buscaCandidatoCpf(cpf, res);
     })
     
-    app.post('/candidato', (req, res) => {
+    app.post('/candidatos', (req, res) => {
         const candidato = req.body;
 
         Candidato.adiciona(candidato, res);
     })
 
-    app.delete('/candidato/:id', (req, res) => {
-        const cpf = (req.body.cpf);
+    app.delete('/candidatos/:cpf', (req, res) => {
+        const cpf = req.body.cpf;
 
         Candidato.deleta(cpf, res);
+    })
+
+    app.put('/candidatos/:cpf', (req, res) => {
+        const cpf = req.body.cpf;
+        const candidatoEditado = req.body;
+
+        Candidato.editar(cpf, candidatoEditado, res);
     })
 
     //---------------------------------------------------------------
