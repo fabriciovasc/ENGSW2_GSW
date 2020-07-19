@@ -20,6 +20,10 @@
  - **Banco de dados**: MySQL
  - **Backend**: Node.js e Express.js
  - **Frontend**: Angular 9 e Bootstrap 4
+ 
+### Demonstrações
+
+ - [Vídeo demonstração para Feira de Soluções](https://youtu.be/c3IOca17Xkw)
 
 ### Entrega 1 - Sprint 0
 
