@@ -13,7 +13,7 @@
 ### Projetos
 
  - [rh-gsw-frontend](https://github.com/fabsvas/rh-gsw-front-fatecsjc)
- - [rw-gsw-backend](https://github.com/fabsvas/ENGSW2_GSW/tree/master/SPRINT%202/InicioImplementacao)
+ - [rh-gsw-backend](https://github.com/fabsvas/ENGSW2_GSW/tree/master/SPRINT%202/InicioImplementacao)
  
 ### Tecnologias utilizadas
 
